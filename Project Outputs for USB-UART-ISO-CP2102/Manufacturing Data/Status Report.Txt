@@ -1,0 +1,11 @@
+Output: Simple BOM
+Type  : SimpleBOM
+From  : Project [USB-UART-ISO-CP2102.PrjPcb]
+   Generated File[USB-UART-ISO-CP2102.BOM]
+   Generated File[USB-UART-ISO-CP2102.CSV]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 10:15:11 On 19-11-2024

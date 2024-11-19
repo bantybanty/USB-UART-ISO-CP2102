@@ -1,0 +1,454 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Footprint Comparison Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Footprint Comparison Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">19-11-2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:02:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\desktop\Documents\Project Files\Altium\Projects\Project - Devlopment\USB-UART-ISO-CP2102\USB-UART-ISO-CP2102-V-2.PcbDoc" class="file"><acronym title="C:\Users\desktop\Documents\Project Files\Altium\Projects\Project - Devlopment\USB-UART-ISO-CP2102\USB-UART-ISO-CP2102-V-2.PcbDoc">C:\Users\desktop\Documents\Project Files\Altium\Projects\Project - Devlopment\USB-UART-ISO-CP2102\USB-UART-ISO-CP2102-V-2.PcbDoc</acronym></a></td>
+</tr>
+</table><a name="IDQ1EA4WB0AZDBNYPMHZ1JGPYN5F15DNVHAXGFFRLRN1VSPPAYZGME"><h2>Contents</h2></a><p class="contents_level1"><a href="#IDQ1EA4WB0AZDBNYPMHZ1JGPYN5F15DNVHAXGFFRLRN1VSPPAYZGME">Contents</a></p>
+<p class="contents_level1"><a href="#ID1BYPFIGEXYVQM05QHDZELW3MMJ2HHJGYSOCI3VEX1PGVZYI3OZYK">Components Status Summary</a></p>
+<p class="contents_level2"><a href="#IDBMCFWS5E5D42IABTWXQJHLDQMCFU2Q5MZANWGHNQ531ME2TN0YXE">Matched Components List<br></a></p><br><a name="ID1BYPFIGEXYVQM05QHDZELW3MMJ2HHJGYSOCI3VEX1PGVZYI3OZYK"><h2>Components Status Summary</h2></a><h2>Matched Components List</h2><a name="IDBMCFWS5E5D42IABTWXQJHLDQMCFU2Q5MZANWGHNQ531ME2TN0YXE"><table>
+<tr>
+<th class="column1">Designator</th>
+<th class="column2">Footprint</th>
+<th class="column3">Footprint reference</th>
+<th class="column4">Footprint to reference Library</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C1I</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C1L</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C1P</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C1R</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C1U</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C2I</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C2L</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C2R</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C2U</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C3L</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">C3U</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">C4U</td>
+<td style="Width:20%" class="column2">C0603-IPC_C_No_Silk</td>
+<td style="Width:20%" class="column3">C0603-IPC_C_No_Silk</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Capacitor\Lib_Capacitor_0603\Project Outputs for Lib_Capacitor_0603\Lib_Capacitor_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">D1L</td>
+<td style="Width:20%" class="column2">LED_0603_YELLOW</td>
+<td style="Width:20%" class="column3">LED_0603_YELLOW</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_LED\Project Outputs for Lib_LED\Lib_LED.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">D1U</td>
+<td style="Width:20%" class="column2">SOT23-6-IPC_C</td>
+<td style="Width:20%" class="column3">SOT23-6-IPC_C</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_IC\Lib_IC_ESD\Project Outputs for Lib_IC_ESD\Lib_IC_ESD.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">F1P</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Fuse\Project Outputs for Lib_Fuse\Lib_Fuse.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">H1M</td>
+<td style="Width:20%" class="column2">MountingHole_2.2mm_M2_Pad_Via_Mask</td>
+<td style="Width:20%" class="column3">MountingHole_2.2mm_M2_Pad_Via_Mask</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_MountingHole\Project Outputs for Lib_MountingHole\Lib_MountingHole.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">H2M</td>
+<td style="Width:20%" class="column2">MountingHole_2.2mm_M2_Pad_Via_Mask</td>
+<td style="Width:20%" class="column3">MountingHole_2.2mm_M2_Pad_Via_Mask</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_MountingHole\Project Outputs for Lib_MountingHole\Lib_MountingHole.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">J1C</td>
+<td style="Width:20%" class="column2">USB-Type-C-16-Pin-SMT</td>
+<td style="Width:20%" class="column3">USB-Type-C-16-Pin-SMT</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Connector\Project Outputs for Lib_Connector\Lib_Connector.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">J2C</td>
+<td style="Width:20%" class="column2">PinHeader_2x09_P2.54mm_Vertical</td>
+<td style="Width:20%" class="column3">PinHeader_2x09_P2.54mm_Vertical</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Connector\Lib_Connector_PinHeader_2.54mm\Project Outputs for Lib_Connector_PinHeader_2.54mm\Lib_Connector_PinHeader_2.54mm.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">J3C</td>
+<td style="Width:20%" class="column2">PinHeader_2x06_P2.54mm_Vertical</td>
+<td style="Width:20%" class="column3">PinHeader_2x06_P2.54mm_Vertical</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Connector\Lib_Connector_PinHeader_2.54mm\Project Outputs for Lib_Connector_PinHeader_2.54mm\Lib_Connector_PinHeader_2.54mm.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Q1P</td>
+<td style="Width:20%" class="column2">DFN2020MD-MFG</td>
+<td style="Width:20%" class="column3">DFN2020MD-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_FET\Lib_Mosfet_PNP\Project Outputs for Lib_Mosfet_PNP\Lib_Mosfet_PNP.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Q1R</td>
+<td style="Width:20%" class="column2">SOT-23-3-MFG</td>
+<td style="Width:20%" class="column3">SOT-23-3-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_FET\Lib_Transistor_NPN\Project Outputs for Lib_Transistor_NPN\Lib_Transistor_NPN.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Q2R</td>
+<td style="Width:20%" class="column2">SOT-23-3-MFG</td>
+<td style="Width:20%" class="column3">SOT-23-3-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_FET\Lib_Transistor_NPN\Project Outputs for Lib_Transistor_NPN\Lib_Transistor_NPN.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R0L</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R1C</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R1L</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R1P</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R1R</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R1U</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R2C</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R2L</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R2R</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R2U</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R3L</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R3R</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">R4L</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">R4R</td>
+<td style="Width:20%" class="column2">R0603-MFG</td>
+<td style="Width:20%" class="column3">R0603-MFG</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Register\Lib_Register_0603\Project Outputs for Lib_Register_0603\Lib_Register_0603.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">U1I</td>
+<td style="Width:20%" class="column2">SOIC-W-16-IPC_A</td>
+<td style="Width:20%" class="column3">SOIC-W-16-IPC_A</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_IC\Lib_IC_Voltage_Level_Shift\Project Outputs for Lib_IC_Voltage_Level_Shift\Lib_IC_Voltage_Level_Shift.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">U1L</td>
+<td style="Width:20%" class="column2">TSOT-23-5-IPC-A</td>
+<td style="Width:20%" class="column3">TSOT-23-5-IPC-A</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects\Project - Devlopment\USB-UART-ISO-CP2102\USB-UART-ISO-CP2102.IntLib</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">U1U</td>
+<td style="Width:20%" class="column2">QFN28_IPC_A</td>
+<td style="Width:20%" class="column3">QFN28_IPC_A</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_IC\Lib_IC_UART\Project Outputs for Lib_IC_UART\Lib_IC_UART.IntLib</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">ZD1P</td>
+<td style="Width:20%" class="column2">SOD-323</td>
+<td style="Width:20%" class="column3">SOD-323</td>
+<td style="Width:60%" class="column4">C:\Users\desktop\Documents\Project Files\Altium\Projects_Libraries\Lib_Diodes\Project Outputs for Lib_Diodes\Lib_Diodes.IntLib</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

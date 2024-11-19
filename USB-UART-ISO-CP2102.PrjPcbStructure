@@ -1,0 +1,7 @@
+Record=TopLevelDocument|FileName=1_Power_Path.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=1_Power_Path.SchDoc|FileName=2_LDO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=1_Power_Path.SchDoc|FileName=3_USB_TO_UART.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=1_Power_Path.SchDoc|FileName=4_Digital_Isolator.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=1_Power_Path.SchDoc|FileName=5_Auto_Reset.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=1_Power_Path.SchDoc|FileName=6_Connector.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=1_Power_Path.SchDoc|FileName=7_MountingHoles.SchDoc|SheetNumber=7

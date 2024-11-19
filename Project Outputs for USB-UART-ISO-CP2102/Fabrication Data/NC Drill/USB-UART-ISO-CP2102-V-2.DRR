@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: USB-UART-ISO-CP2102-V-2.PcbDoc   19-11-2024  10:15:44
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : USB-UART-ISO-CP2102-V-2-RoundHoles.TXT
+ASCII SlotHoles File : USB-UART-ISO-CP2102-V-2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             88        PTH        212.05mm (8.35inch)
+T2      0.5mm (20mil)                                             Round             4         PTH        17.15mm (0.68inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        37.57mm (1.48inch)
+T4      1mm (39mil)                                               Round             30        PTH        107.28mm (4.22inch)
+T5      2.2mm (87mil)                                             Round             2         PTH        29.10mm (1.15inch)
+T6      0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              130
+
+Total Processing Time (hh:mm:ss) : 00:00:00

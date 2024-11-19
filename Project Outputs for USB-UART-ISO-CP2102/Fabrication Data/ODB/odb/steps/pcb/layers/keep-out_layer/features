@@ -1,0 +1,21 @@
+UNITS=MM
+#Layer_Color=16711935
+#
+#Feature symbol names
+#
+
+#
+#Feature attribute names
+#
+
+#
+#Layer features
+#
+S P 0
+OB 34.29094488 -0.0002286 I
+OS 29.8299124 -0.0002286
+OS 29.8299124 19.99973394
+OS 34.29094488 19.9997441
+OS 34.29094488 -0.0002286
+OE
+SE

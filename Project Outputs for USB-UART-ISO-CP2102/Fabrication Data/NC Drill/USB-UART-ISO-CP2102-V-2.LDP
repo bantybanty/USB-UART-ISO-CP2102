@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\desktop\Documents\Project Files\Altium\Projects\Project - Devlopment\USB-UART-ISO-CP2102\USB-UART-ISO-CP2102-V-2.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=usb-uart-iso-cp2102-v-2-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=usb-uart-iso-cp2102-v-2-slotholes.txt|DrillLayers=gtl,gbl
