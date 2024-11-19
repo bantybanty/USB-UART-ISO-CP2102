@@ -1,0 +1,47 @@
+# Altium Project Files
+*.PrjPCBStructure
+*.PrjPCB
+*.PrjPcbDotSettings
+*.OutJob
+*.VersionControl
+*.PrjPcbSettings
+
+# Design Files
+*.SchDoc~ # Temporary schematic backups
+*.PcbDoc~ # Temporary PCB backups
+*.SchDoc# # Locked files
+*.PcbDoc# # Locked files
+
+# Generated Files
+*.PcbLib~
+*.SchLib~
+*.Ddb~ # Temporary database backups
+*.Ddb# # Locked database files
+*.zip
+*.rar
+*.7z
+
+# Output Files
+/Output/*
+/Generated/*
+*.Gerber
+*.NCDrill
+*.NCDrill_Files/
+/*.PDF
+
+# Backup Files
+*.Bak
+*.Backups/
+
+# Simulation Files
+*.SimData
+*.Waveform
+
+# Autosave and Cache Files
+*.autosave
+*.dbcache
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
