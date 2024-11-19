@@ -1,10 +1,10 @@
+#Directories
+.svn/*
+.Backups/*
+History/*
+
 # Altium Project Files
-*.PrjPCBStructure
-*.PrjPCB
-*.PrjPcbDotSettings
-*.OutJob
 *.VersionControl
-*.PrjPcbSettings
 
 # Design Files
 *.SchDoc~ # Temporary schematic backups
@@ -17,25 +17,10 @@
 *.SchLib~
 *.Ddb~ # Temporary database backups
 *.Ddb# # Locked database files
-*.zip
-*.rar
-*.7z
-
-# Output Files
-/Output/*
-/Generated/*
-*.Gerber
-*.NCDrill
-*.NCDrill_Files/
-/*.PDF
 
 # Backup Files
 *.Bak
 *.Backups/
-
-# Simulation Files
-*.SimData
-*.Waveform
 
 # Autosave and Cache Files
 *.autosave
