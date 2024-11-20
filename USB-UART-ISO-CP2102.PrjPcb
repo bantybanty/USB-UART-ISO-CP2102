@@ -305,7 +305,7 @@ DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\Test Po
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\BOM\Bill of Materials-USB-UART-ISO-CP2102.xlsx
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Manufacturing Data\BOM\Bill of Materials-USB-UART-ISO-CP2102.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument5]
@@ -417,210 +417,226 @@ DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\netlists\
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Pick Place\Pick Place for USB-UART-ISO-CP2102-V-2.csv
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Manufacturing Data\Pick Place\Pick Place for USB-UART-ISO-CP2102-V-2.csv
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Pick Place\Pick Place for USB-UART-ISO-CP2102-V-2.txt
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Pick Place\Pick Place for USB-UART-ISO-CP2102-V-2.csv
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\profile
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Manufacturing Data\Pick Place\Pick Place for USB-UART-ISO-CP2102-V-2.txt
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\stephdr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Pick Place\Pick Place for USB-UART-ISO-CP2102-V-2.txt
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2-RoundHoles.TXT
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2-SlotHoles.TXT
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2.DRR
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.EXTREP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2.EXTREP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBL
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBO
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBS
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GM
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTL
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTO
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GM
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTS
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\DiffReport\USB-UART-ISO-CP2102-V-2.html
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\DRC\USB-UART-ISO-CP2102-V-2.html
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\FootprintComparison\USB-UART-ISO-CP2102-V-2.html
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\DiffReport\USB-UART-ISO-CP2102-V-2.html
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2.LDP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\DRC\USB-UART-ISO-CP2102-V-2.html
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.REP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\FootprintComparison\USB-UART-ISO-CP2102-V-2.html
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2.REP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\NC Drill\USB-UART-ISO-CP2102-V-2.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\USB-UART-ISO-CP2102-V-2.REP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Gerber\USB-UART-ISO-CP2102-V-2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2.RUL
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Backdrills_Drill_2_2.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\ODB\USB-UART-ISO-CP2102-V-2.REP
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Backdrills_Drill_2_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Drawing_1.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument64]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Drillmap_1.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument65]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Drillmap_2.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument66]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Keep-out.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument67]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Legend_Bot.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Drillmap_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument68]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Legend_Top.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument69]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_NPTH_Drill.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument70]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Paste_Bot.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument71]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Paste_Top.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument72]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_PTH_Drill.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument73]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument74]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Soldermask_Top.gbr
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument75]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\SimpleBOM\USB-UART-ISO-CP2102.BOM
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument76]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\SimpleBOM\USB-UART-ISO-CP2102.CSV
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\GerberX2\USB-UART-ISO-CP2102-V-2_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument77]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\EDIF\USB-UART-ISO-CP2102.EDF
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Manufacturing Data\SimpleBOM\USB-UART-ISO-CP2102.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument78]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\ERC\USB-UART-ISO-CP2102.html
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\SimpleBOM\USB-UART-ISO-CP2102.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument79]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\MultiWire\USB-UART-ISO-CP2102.NET
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Manufacturing Data\SimpleBOM\USB-UART-ISO-CP2102.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument80]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\Pcad\USB-UART-ISO-CP2102.NET
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\SimpleBOM\USB-UART-ISO-CP2102.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument81]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\ProtelNetlist\USB-UART-ISO-CP2102.NET
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\EDIF\USB-UART-ISO-CP2102.EDF
 DItemRevisionGUID=
 
 [GeneratedDocument82]
-DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\ReportHierarchy\USB-UART-ISO-CP2102.REP
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\ERC\USB-UART-ISO-CP2102.html
 DItemRevisionGUID=
 
 [GeneratedDocument83]
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\MultiWire\USB-UART-ISO-CP2102.NET
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\Pcad\USB-UART-ISO-CP2102.NET
+DItemRevisionGUID=
+
+[GeneratedDocument85]
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\ProtelNetlist\USB-UART-ISO-CP2102.NET
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\ReportHierarchy\USB-UART-ISO-CP2102.REP
+DItemRevisionGUID=
+
+[GeneratedDocument87]
 DocumentPath=Project Outputs for USB-UART-ISO-CP2102\Verification Report\SinglePinNetReporter\USB-UART-ISO-CP2102.REP
 DItemRevisionGUID=
 
