@@ -1,12 +1,12 @@
 Output: Test Point Report
 Type  : Test Points
-From  : PCB Document [USB-UART-ISO-CP2102-V-2.PcbDoc]
-   Generated File[Assembly Testpoint Report for USB-UART-ISO-CP2102-V-2.txt]
-   Generated File[Assembly Testpoint Report for USB-UART-ISO-CP2102-V-2.csv]
-   Generated File[Assembly Testpoint Report for USB-UART-ISO-CP2102-V-2.ipc]
+From  : PCB Document [USB-UART-ISO-CP2102-V-1.PcbDoc]
+   Generated File[Assembly Testpoint Report for USB-UART-ISO-CP2102-V-1.txt]
+   Generated File[Assembly Testpoint Report for USB-UART-ISO-CP2102-V-1.csv]
+   Generated File[Assembly Testpoint Report for USB-UART-ISO-CP2102-V-1.ipc]
 
 
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 10:03:12 On 19-11-2024
+Finished Output Generation At 02:59:23 On 23-11-2024
