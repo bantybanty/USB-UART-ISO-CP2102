@@ -2,6 +2,7 @@
 .svn/*
 .Backups/*
 History/*
+__Previews
 
 # Altium Project Files
 *.VersionControl
