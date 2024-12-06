@@ -2,10 +2,8 @@
 FileName = USB-UART-ISO-CP2102-V-1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : USB-UART-ISO-CP2102-V-1.GBP
-
-    Adding Layer      : Bottom Paste
+Generating : Bottom Layer
+      File : USB-UART-ISO-CP2102-V-1.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -13,6 +11,7 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D11
     D40
     D41
     D42
@@ -21,6 +20,15 @@ Used DCodes :
     D45
     D46
     D47
+    D74
+    D75
+    D76
+    D79
+    D80
+    D81
+    D84
+    D85
+    D86
 *************************************************************
 
 *************************************************************
@@ -71,6 +79,21 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Overlay
+      File : USB-UART-ISO-CP2102-V-1.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : USB-UART-ISO-CP2102-V-1.GBS
 
@@ -90,109 +113,6 @@ Used DCodes :
     D71
     D72
     D73
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : USB-UART-ISO-CP2102-V-1.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D23
-    D24
-    D30
-    D31
-    D40
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : USB-UART-ISO-CP2102-V-1.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D12
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : USB-UART-ISO-CP2102-V-1.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : USB-UART-ISO-CP2102-V-1.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D74
-    D75
-    D76
-    D79
-    D80
-    D81
-    D84
-    D85
-    D86
 *************************************************************
 
 *************************************************************
@@ -233,9 +153,9 @@ Used DCodes :
     D45
     D46
     D47
+    D61
     D62
     D63
-    D64
     D74
     D75
     D76
@@ -249,6 +169,86 @@ Used DCodes :
     D84
     D85
     D86
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : USB-UART-ISO-CP2102-V-1.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : USB-UART-ISO-CP2102-V-1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D12
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : USB-UART-ISO-CP2102-V-1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D22
+    D23
+    D29
+    D30
+    D40
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
 *************************************************************
 
 *************************************************************

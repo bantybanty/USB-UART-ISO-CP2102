@@ -114,8 +114,8 @@ Used DCodes :
     D23
     D24
     D25
-    D26
-    D28
+    D27
+    D31
     D32
     D33
     D34
@@ -204,13 +204,13 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D12
     D13
-    D14
+    D19
     D20
-    D21
+    D28
     D29
     D30
-    D31
     D44
     D53
     D64
