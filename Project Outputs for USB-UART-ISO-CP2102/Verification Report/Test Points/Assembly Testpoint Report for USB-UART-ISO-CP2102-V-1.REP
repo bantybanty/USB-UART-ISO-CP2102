@@ -1,22 +1,22 @@
-Error Report for  - Temp\QjzBD03.tmp
-06-12-2024 14:39:44
+Error Report for  - Temp\QjzB212.tmp
+06-12-2024 17:44:17
 
 Warning arcs were not exported.
 
 Net EN/RST/nRST_ISO with allias 1 too long.
 Warning pad shape change for D1U-6 from  to rectangular 0.6198mm,0.5358mm
-Warning pad shape change for U1I-10 from  to rectangular 1.9757mm,0.6221mm
 Warning pad shape change for U1I-7 from  to rectangular 1.9757mm,0.6221mm
-Warning pad shape change for U1U-21 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-22 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-19 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-20 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-17 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-16 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-15 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-14 from  to rectangular 0.2mm,0.75mm
-Warning pad shape change for U1U-13 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1I-10 from  to rectangular 1.9757mm,0.6221mm
 Warning pad shape change for U1U-10 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-13 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-14 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-15 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-16 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-17 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-20 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-19 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-22 from  to rectangular 0.2mm,0.75mm
+Warning pad shape change for U1U-21 from  to rectangular 0.2mm,0.75mm
 Warning pad shape change for U1L-5 from  to rectangular 0.65mm,0.95mm
 Warning pad shape change for U1U-6 from  to rectangular 0.2mm,0.75mm
 Warning pad shape change for U1U-7 from  to rectangular 0.2mm,0.75mm

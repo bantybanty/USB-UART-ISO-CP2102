@@ -6,7 +6,7 @@
   )
   (status
     (written
-      (timeStamp 2024 12 6 14 39 43)
+      (timeStamp 2024 12 6 17 44 15)
       (program "Altium Designer - EDIF For PCB"
         (version "1.0.0")
       )
@@ -2621,7 +2621,7 @@
             (Property Description (String "LDO U-Reg Adj 0, 3A SOT23-5" ))
             (Property Footprint (String "TSOT-23-5-IPC-A" ))
             (Property (rename Ibis_Model "Ibis Model") (String "" ))
-            (Property (rename Library_Name "Library Name") (String "USB-UART-ISO-CP2102.IntLib" ))
+            (Property (rename Library_Name "Library Name") (String "Lib_LDO.IntLib" ))
             (Property (rename Library_Reference "Library Reference") (String "SGM2019-ADJYN5G/TR" ))
             (Property Manufacturer (String "SG Micro" ))
             (Property (rename Manufacturer_Part_Number "Manufacturer Part Number") (String "SGM2019-ADJYN5G/TR" ))
