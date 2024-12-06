@@ -3,6 +3,7 @@
 .Backups/*
 History/*
 __Previews
+Project Logs for*/
 
 # Altium Project Files
 *.VersionControl
